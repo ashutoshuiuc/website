@@ -446,6 +446,16 @@ section:nth-child(even) {
   color: #27ae60;
 }
 
+.venue-iclr {
+  background: #ede7f6;
+  color: #7b1fa2;
+}
+
+.venue-ultrasonics {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
 .pub-title {
   font-size: 1.05rem;
   font-weight: 700;

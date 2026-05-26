@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ashutosh Sharma</title>
-  <meta name="description" content="Ashutosh Sharma — Research Engineer at MIT-IBM Watson AI Lab (IBM Research). MS in CS from UIUC, BTech from IIT Bombay. Specializing in LLMs, Reinforcement Learning, and Distributed Systems.">
+  <meta name="description" content="Ashutosh Sharma — Research Engineer at IBM Research (MIT-IBM Watson AI Lab). MS in CS from UIUC, BTech from IIT Bombay. Leading Agentic RL infrastructure for Granite LLMs at up to 200B scale.">
   <meta property="og:title" content="Ashutosh Sharma — Research Engineer">
-  <meta property="og:description" content="Research Engineer at MIT-IBM Watson AI Lab. Working on large language models, reinforcement learning, and distributed systems.">
+  <meta property="og:description" content="Research Engineer at IBM Research. Developing Granite LLMs, GPU kernels for efficient inference, and distributed reinforcement learning systems.">
   <meta property="og:type" content="website">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -39,8 +39,7 @@
     <div class="section-inner">
       <div class="hero-grid">
         <div class="hero-sidebar">
-          <!-- Replace with <img src="assets/img/profile.jpg" alt="Ashutosh Sharma"> when photo is ready -->
-          <div class="avatar">AS</div>
+          <div class="avatar"><img src="assets/img/profile.jpg" alt="Ashutosh Sharma"></div>
           <h1>Ashutosh Sharma</h1>
           <p class="title">Research Engineer</p>
           <p class="affiliation">MIT-IBM Watson AI Lab, IBM Research</p>
@@ -53,18 +52,24 @@
         </div>
         <div class="hero-bio">
           <p>
-            I am a Research Engineer at the <strong>MIT-IBM Watson AI Lab</strong> (IBM Research), where I work on developing and post-training large language models at scale. My current work focuses on the <strong>Granite 4.0</strong> family of LLMs (1B&ndash;100B parameters), distributed reinforcement learning systems, and building RL environments for software engineering and enterprise domains.
+            I am a Research Engineer at <strong>IBM Research</strong> (MIT-IBM Watson AI Lab), where I develop and train the <strong>Granite</strong> family of LLMs at up to 200B scale. I lead the RL infrastructure for Agentic RL of Granite LLMs, enabling multi-scaffold, multi-task, and multi-turn reinforcement learning.
           </p>
           <p>
-            I received my <strong>M.S. in Computer Science</strong> from the University of Illinois Urbana-Champaign, where I was awarded the <strong>Siebel Scholarship</strong> for academic excellence and leadership. Prior to that, I earned my <strong>B.Tech (Honors) in Mechanical Engineering</strong> with dual minors in Computer Science and Artificial Intelligence from the Indian Institute of Technology Bombay.
+            I received my <strong>M.S. in Computer Science</strong> from the University of Illinois Urbana-Champaign, where I was awarded the <strong>Siebel Scholarship</strong> for academic excellence and leadership. Prior to that, I earned my <strong>B.Tech (Honors) in Mechanical Engineering</strong> with dual minors in Computer Science and Artificial Intelligence from the Indian Institute of Technology Bombay. My primary interests lie at the intersection of mathematics, low-level systems engineering, and machine learning.
+          </p>
+          <p>
+            Outside of work, I enjoy singing, listening to music, and travelling.
           </p>
           <div class="interests">
             <h3>Research Interests</h3>
             <ul>
               <li>Large Language Models &amp; Post-Training</li>
               <li>Reinforcement Learning &amp; Agentic Systems</li>
+              <li>GPU Kernels &amp; Systems Optimization</li>
               <li>Distributed Systems</li>
-              <li>Natural Language Processing &amp; Information Retrieval</li>
+              <li>Systems Programming</li>
+              <li>Theoretical Machine Learning</li>
+              <li>Information Retrieval &amp; NLP</li>
             </ul>
           </div>
         </div>
@@ -111,11 +116,11 @@
           <p class="role">Research Engineer</p>
           <p class="company">IBM Research &mdash; MIT-IBM Watson AI Lab</p>
           <p class="period">June 2025 &ndash; Present</p>
-          <p class="summary">Researching &amp; developing Granite 4.0 LLMs (1B&ndash;100B scale) and Agentic RL systems</p>
+          <p class="summary">Researching &amp; developing Granite LLMs (up to 200B scale) &amp; Agentic RL systems</p>
           <ul>
-            <li>Led Post-Training using SFT and RL, establishing SOTA reasoning, math, code, and tool-use performance</li>
-            <li>Built distributed async RL trainer leveraging FSDP &amp; Megatron for multi-task and multi-agent training</li>
-            <li>Developing Docker Sandbox Infrastructure and RL Environments for SWE and Enterprise domains</li>
+            <li>Built distributed async RL trainer with Megatron &amp; FSDP for long-horizon RL; led SFT &amp; RL post-training achieving SOTA reasoning, math, code, &amp; tool-use performance</li>
+            <li>Training Block Diffusion Language Models with Multi-Token Prediction, Multi-Latent Attention, and custom noise schedules &amp; auxiliary loss functions</li>
+            <li>Developed Fused Triton Kernels for efficient dLLM inference &amp; compiled model forward operations achieving 2&times; faster inference than SOTA baselines</li>
           </ul>
         </div>
 
@@ -154,22 +159,38 @@
       <div class="pub-list">
 
         <div class="pub-item">
-          <span class="pub-venue venue-acl">ACL 2024</span>
-          <p class="pub-title">IndicIRSuite: Dataset and Retrieval Models for Indian Languages</p>
-          <p class="pub-authors">Saiful Haq, <strong>Ashutosh Sharma</strong>, Pushpak Bhattacharyya</p>
+          <span class="pub-venue venue-ultrasonics">Ultrasonics 2025</span>
+          <p class="pub-title">Towards Improving Breast Cancer Detection through Multi-Modal Image Generation</p>
+          <p class="pub-authors">Sahar Almahfouz Nasser, <strong>Ashutosh Sharma</strong>, Anmol Saraf, Amruta Parulekar, Pranjal Haria, Amit Sethi</p>
           <div class="pub-buttons">
-            <!-- TODO: Replace # with actual paper URL -->
-            <a href="#" class="pub-btn"><i class="fas fa-file-pdf"></i> Paper</a>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0041624X25000927" target="_blank" rel="noopener" class="pub-btn"><i class="fas fa-file-pdf"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-venue venue-iclr">ICLR 2024</span>
+          <p class="pub-title">DSPy: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines</p>
+          <p class="pub-authors">Omar Khattab, Arnav Singhvi, Paridhi Maheshwari, Zhiyuan Zhang, Keshav Santhanam, Saiful Haq, <strong>Ashutosh Sharma</strong>, et al.</p>
+          <div class="pub-buttons">
+            <a href="https://arxiv.org/abs/2310.03714" target="_blank" rel="noopener" class="pub-btn"><i class="fas fa-file-pdf"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-venue venue-acl">ACL 2024</span>
+          <p class="pub-title">IndicIRSuite: Multilingual Dataset and Neural Information Models for Indian Languages</p>
+          <p class="pub-authors">Saiful Haq, <strong>Ashutosh Sharma</strong>, Omar Khattab, Niyati Chhaya, Pushpak Bhattacharyya</p>
+          <div class="pub-buttons">
+            <a href="https://aclanthology.org/2024.acl-short.46/" target="_blank" rel="noopener" class="pub-btn"><i class="fas fa-file-pdf"></i> Paper</a>
           </div>
         </div>
 
         <div class="pub-item">
           <span class="pub-venue venue-emnlp">EMNLP 2023</span>
-          <p class="pub-title">ANGEL: Enterprise Search System for Non-Profit Industry</p>
+          <p class="pub-title">ANGEL: Enterprise Search System for the Non-Profit Industry</p>
           <p class="pub-authors">Saiful Haq*, <strong>Ashutosh Sharma*</strong>, Pushpak Bhattacharyya</p>
           <div class="pub-buttons">
-            <!-- TODO: Replace # with actual paper URL -->
-            <a href="#" class="pub-btn"><i class="fas fa-file-pdf"></i> Paper</a>
+            <a href="https://aclanthology.org/2023.emnlp-industry.77/" target="_blank" rel="noopener" class="pub-btn"><i class="fas fa-file-pdf"></i> Paper</a>
           </div>
         </div>
 
@@ -182,6 +203,34 @@
     <div class="section-inner">
       <h2 class="section-title">Key Projects</h2>
       <div class="project-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>FlashMaxSim: IO-Aware GPU Kernels for Multi-Vector Retrieval</h3>
+            <span class="project-date">Jan 2025 &ndash; Present</span>
+          </div>
+          <p>Designed tiled Triton kernels for ColBERT MaxSim scoring, eliminating intermediate matrix materialization. Achieved 80% peak HBM bandwidth on H100 GPU and 469&times; scoring throughput over WARP (SIGIR&rsquo;25 Best Paper).</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Triton</span>
+            <span class="tech-tag">CUDA</span>
+            <span class="tech-tag">GPU Kernels</span>
+            <span class="tech-tag">Information Retrieval</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>GPUSparse: GPU-Accelerated Learned Sparse Retrieval</h3>
+            <span class="project-date">Jan 2025 &ndash; Present</span>
+          </div>
+          <p>Built GPU-parallel inverted index with warp-coalesced posting lists and batched scatter-add scoring kernel. Achieved 569&times; speedup over cuSPARSE and scaled to 1M documents at 1,272 QPS on a single H100 using only 4GB GPU memory.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Triton</span>
+            <span class="tech-tag">CUDA</span>
+            <span class="tech-tag">Sparse Retrieval</span>
+            <span class="tech-tag">GPU</span>
+          </div>
+        </div>
 
         <div class="project-card">
           <div class="project-header">
@@ -296,6 +345,11 @@
           <span class="skill-pill">Git</span>
           <span class="skill-pill">Apache Kafka</span>
           <span class="skill-pill">MongoDB</span>
+          <span class="skill-pill">Triton</span>
+          <span class="skill-pill">vLLM</span>
+          <span class="skill-pill">SGLang</span>
+          <span class="skill-pill">Megatron</span>
+          <span class="skill-pill">FSDP</span>
           <span class="skill-pill">Docker</span>
           <span class="skill-pill">Flask</span>
           <span class="skill-pill">React</span>
@@ -313,7 +367,7 @@
         <a href="https://github.com/ashutoshuiuc" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
         <a href="https://scholar.google.com/citations?user=xMDayLoAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
       </div>
-      <p>&copy; 2026 Ashutosh Sharma. Last updated March 2026.</p>
+      <p>&copy; 2026 Ashutosh Sharma. Last updated May 2026.</p>
     </div>
   </footer>
 
